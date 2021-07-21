@@ -10,11 +10,11 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header>
+  <body class="h-screen bg-black">
+    <header class="py-4 px-6 bg-gray-900 flex items-center justify-between">
       <div>
         <div class="logo">
-          <svg width="192" height="37" viewBox="0 0 192 37" fill="none">
+          <svg class="h-5 sm:h-6" viewBox="0 0 192 37" fill="none">
             <path
               d="M40.0042 10.8054C38.3888 10.8054 37.0568 12.1091 37.0568 13.7528V19.9879V26.2228H40.0042V19.9879V13.7528H43.5185H47.0328V10.8054H43.5185H40.0042Z"
               fill="#E1E1E6"
@@ -72,8 +72,8 @@
       </div>
 
       <nav>
-        <ul>
-          <li>
+        <ul class="flex items-center">
+          <li class="add-users p-3">
             <a href="#">
               <svg
                 stroke="currentColor"
@@ -94,7 +94,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="alert p-3">
             <a href="#">
               <svg
                 stroke="currentColor"
@@ -115,9 +115,12 @@
             </a>
           </li>
 
-          <li>
-            <strong>Mayk Brito</strong>
+          <li class="user flex items-center">
+            <strong class="text-gray-400 hidden sm:inline ml-4"
+              >Mayk Brito</strong
+            >
             <img
+              class="border-2 rounded-full border-green-500 w-12 h-12 ml-4"
               src="https://avatars3.githubusercontent.com/u/6643122?v=4"
               alt="Mayk Brito Profile"
             />
