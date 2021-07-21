@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="h-screen bg-black">
+  <body class="h-screen w-screen bg-black">
     <header class="py-4 px-6 bg-gray-900 flex items-center justify-between">
       <div>
         <div class="logo">
@@ -129,9 +129,24 @@
       </nav>
     </header>
 
-    <main>
-      <section>
-        <h2>Starter</h2>
+    <main class="text-gray-400 text-center p-6 lg:flex">
+      <section
+        class="
+          transform
+          hover:-translate-y-3 hover:border-purple-500
+          transition-all
+          duration-200
+          bg-gray-900
+          p-8
+          sm:p-16
+          mt-8
+          border-2 border-transparent
+          rounded
+          flex flex-col
+          items-center
+        "
+      >
+        <h2 class="sr-only">Starter</h2>
 
         <svg
           class="h-auto mx-auto pb-16"
@@ -156,14 +171,32 @@
           ></path>
         </svg>
 
-        <p>
-          <strong>Torne-se um programador desejado</strong> no mercado com esses
-          cursos
+        <p class="sm:w-1/2">
+          <strong class="text-purple-500"
+            >Torne-se um programador desejado</strong
+          >
+          no mercado com esses cursos
         </p>
       </section>
 
-      <section>
-        <h2>Launchbase</h2>
+      <section
+        class="
+          transform
+          hover:-translate-y-3 hover:border-yellow-500
+          transition-all
+          duration-200
+          bg-gray-900
+          p-8
+          sm:p-16
+          mt-8
+          border-2 border-transparent
+          rounded
+          flex flex-col
+          items-center
+          md:mx-4
+        "
+      >
+        <h2 class="sr-only">Launchbase</h2>
 
         <svg
           class="h-auto mx-auto pb-16"
@@ -189,14 +222,29 @@
           ></path>
         </svg>
 
-        <p>
-          <strong>Domine programação do zero</strong> e tenha acesso às melhores
-          oportunidades do mercado
+        <p class="sm:w-1/2">
+          <strong class="text-yellow-500">Domine programação do zero</strong> e
+          tenha acesso às melhores oportunidades do mercado
         </p>
       </section>
 
-      <section>
-        <h2>GoStack</h2>
+      <section
+        class="
+          transform
+          hover:-translate-y-3 hover:border-green-500
+          transition-all
+          duration-200
+          bg-gray-900
+          p-8
+          sm:p-16
+          mt-8
+          border-2 border-transparent
+          rounded
+          flex flex-col
+          items-center
+        "
+      >
+        <h2 class="sr-only">GoStack</h2>
 
         <svg
           width="120"
@@ -245,9 +293,9 @@
           ></path>
         </svg>
 
-        <p>
-          <strong>Treinamento imersivo</strong> nas tecnologias mais modernas de
-          desenvolvimento web e mobile
+        <p class="sm:w-1/2">
+          <strong class="text-green-500">Treinamento imersivo</strong> nas
+          tecnologias mais modernas de desenvolvimento web e mobile
         </p>
       </section>
     </main>
